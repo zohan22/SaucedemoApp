@@ -13,9 +13,9 @@ public class Android implements IDevice{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("appium:automationName", "UiAutomator2");
-        capabilities.setCapability("appium:deviceName", "Practica");
-        capabilities.setCapability("appium:udid", "emulator-5554");
-        capabilities.setCapability("appium:platformVersion", "11.0");
+        capabilities.setCapability("appium:deviceName", "Galaxy A05s");
+        capabilities.setCapability("appium:udid", "R7AX60FHJHE");
+        capabilities.setCapability("appium:platformVersion", "15");
         capabilities.setCapability("appium:appPackage", "com.saucelabs.mydemoapp.android");
         capabilities.setCapability("appium:appActivity", ".view.activities.SplashActivity");
         AndroidDriver driver = null;
